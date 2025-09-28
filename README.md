@@ -15,6 +15,27 @@ The Cloud Financial Data Validator is a Python-based automation project that con
 - Validate data against predefined rules
 - Reduce manual processing time and human error
 
+  User Gmail Account (Source)
+        |
+        v
+Gmail API (Python) -- Retrieves emails
+        |
+        v
+Email Parsing Module (Python) -- Extracts financial data
+        |
+        v
+Data Validation Module (Python) -- Validates data based on rules
+        |
+        v
+Logging & Reporting Module (Python) -- Stores validation results and generates reports
+        |
+        v
+Google Cloud Platform -- Scalable processing and optional storage
+        |
+        v
+Output / Dashboard -- Final validated data accessible to users
+
+
 ---
 
 ## ✨ Key Features
